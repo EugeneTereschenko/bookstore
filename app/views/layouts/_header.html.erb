@@ -51,25 +51,6 @@
 </li></ul></li>
 <li>
 <a href="#">My account</a></li></ul></div></div>
-<% else %>
-<div class="navbar-header">
-<button type="button" data-toggle="collapse" data-target="#navbar" class="navbar-toggle pull-left">
-<span class="sr-only"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span></button>
-<a class="navbar-brand">Bookstore</a>
-<div id="navbar" aria-expanded="false" class="navbar-collapse collapse pl-30">
-<div class="visible-xs">
-<ul class="nav navbar-nav">
-<li>
-<ul id="menu" aria-expanded="false" class="collapse list-unstyled pl-30 mb-10">
-</ul></li>
-<li>
-</li></ul></div>
-<div class="hidden-xs">
-<ul class="nav navbar-nav">
-<li><%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path %></li></ul></div></div>
 <% end %>
 </div>
   <p class="notice">
