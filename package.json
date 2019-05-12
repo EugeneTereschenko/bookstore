@@ -1,0 +1,12 @@
+{
+  "name": "bookstore",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "EugeneTereschenko <tereschenko.eugene@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/EugeneTereschenko/bookstore.git"
+}
